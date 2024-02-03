@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cors",
+  "info": {
+    "name": "Cor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "opcao": {
+      "type": "enumeration",
+      "enum": [
+        "vermelho",
+        "laranja",
+        "amarelo",
+        "verde",
+        "azul"
+      ]
+    },
+    "hexadecimal": {
+      "type": "string"
+    }
+  }
+}
